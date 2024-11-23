@@ -1,4 +1,6 @@
 // app.js
+require('dotenv').config()
+console.log('logging ENV')
 const express = require("express");
 const app = express();
 const usersRouter = require("./routes/users");
